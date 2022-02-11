@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Red+Hat+Display:wght@300&family=Source+Code+Pro:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Red+Hat+Display:wght@300&family=Rowdies:wght@700&family=Source+Code+Pro:wght@500&display=swap');
 .container{
     width:100%;
 }
 
 .welcomebox{
-    padding:30px;
-    font-size: 50px;
+    padding:10px;
+    font-size: 80px;
     border-style: solid;
     border-color: solid black;
     font-family: 'Pacifico', cursive;
@@ -14,34 +13,98 @@
 }
 
 .handle{
-    color: crimson;
-    border-color:skyblue;
+    background-color: rgb(208, 232, 243);
+    color:beige;
+    border-color:rgb(20, 61, 73);
     border-style: solid;
     display:flex;
     justify-content: center;
-    row-gap: 10px;
-
+    padding:50px;
 }
 
-#icon{
-    background-color: darkkhaki;
-    border-radius: 10%;
-    font-size: 30px;
+#icon{ 
+    
+    font-size: 20px;
+    margin: 10px 30px;
+    cursor: pointer;
+    padding: 14px 40px;
+    background-color: rgb(15, 103, 204);
+    color:rgb(224, 233, 231);
+    border-color: rgb(26, 24, 24);
+    box-shadow: 10px 5px 5px rgb(17, 16, 16);
+    font-family: 'Rowdies', cursive;
 }
 
-
+#submit_button{
+    font-size: 20px;
+    margin: 10px 30px;
+    cursor: pointer;
+    padding: 14px 40px;
+    background-color: rgb(15, 103, 204);
+    color:rgb(224, 233, 231);
+    border-color: rgb(26, 24, 24);
+    box-shadow: 10px 5px 5px rgb(17, 16, 16);
+    font-family: 'Rowdies', cursive;
+}
 
 #project{
-    color:green;
-    border-style: solid;
-    border-color: indigo;
+    background-color: rgb(126, 178, 202);
+    color:beige;
     font-family: 'Red Hat Display', sans-serif;
+    padding:15px;
 }
+
+
+.main{
+    border-style:solid;
+    display:flex;
+    padding:10px;
+    justify-content:center;
+    height:240px;
+    width:1000px;
+  }
+  .ProjectName{
+    background-color:#3a577a;
+    height:230px;
+    width:200px;
+    color:white;
+    font-size:30px;
+    text-align: center;
+  }
+  .ProjectDesc{
+    background-color:#6593cc;
+    height:230px;
+    width:500px;
+    color:white;
+    text-align: center;
+  }
+  .stack{
+    background-color:#a3bfe0;
+    height:200px;
+    width:300px;
+    display-flex:column;
+    padding:15px;
+  }
+  #layer{
+    background-color:#649DFB;
+    border-style:solid;
+    border-color:#4386FA;
+    height:55px;
+    padding:2px;
+    font-size:20px;
+    color:white;
+    text-align: center;
+  }
+  
+
 #message{
+    background-color: rgb(125, 171, 231);
     font-family: 'Source Code Pro', monospace;
-    color:pink;
+    font-size: 30px;
+    color:rgb(37, 8, 8);
     border-style: solid;
-    border-color:orange;
+    border-color:rgb(65, 24, 21);
+    display:inline-flex;
 }
 
 
@@ -64,4 +127,3 @@
      60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
     100% { transform: rotate( 0.0deg) }
   }
-  
