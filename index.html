@@ -8,13 +8,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <!--WELCOME -->
 <div class = "container">
   <div class = "welcomebox">
-    <p>Hello!<span class="wave">👋</span> This is Arpit Prajapati</p>
+    <p><span class="wave">👋</span> 😎 Hello ! This is Arpit Prajapati. </p>
   </div>
   
   
-  
+<!---SOCIAL MEDIA HANDLE -->  
   <div class="handle">
     <a href='https://ide.geeksforgeeks.org/'> <button id="icon"> GITHUB </button> </a>
     <a href='https://ide.geeksforgeeks.org/'> <button id="icon"> LINKEDIN </button> </a>
@@ -23,10 +25,7 @@
     <a href='https://ide.geeksforgeeks.org/'> <button id="icon"> CODEFORCES </button> </a>
   </div>
 
-
-
-
-
+  <!---PROJECT AREA-->
 
   <div id="project">
     <h2>Projects for showcase</h2>
@@ -72,22 +71,22 @@
       </div>
     </div>
   </div>
-  
-  
-  
-  
-  
-  
-  <div id="message">
-   <p>Message Me !</p> 
-   <form action="https://formspree.io/f/myyowgye" method="POST">
-    <label>Your email: <input type="email" name="email"> </label>
-    <label>Your message: <textarea name="message"></textarea> </label>
+
+<!---MESSAGE BOX-->
+<div class="messagebox">
+  <div class="label"> Message Me !</div>
+  <br>
+<form action="https://formspree.io/f/myyowgye" method="POST">
+    <label for="email">Your email: </label><br>
+    <input type="email" id="email" name="email"> 
+    <br>
+    <label for="message" >Your message: </label><br>
+    <textarea id="message" name="message"></textarea> 
     <!-- your other form fields go here -->
+  <br>
     <button id ="submit_button" type="submit"> Send Message </button>
    </form>
-  </div>
-
+</div>
 
 </div>
 </body>
