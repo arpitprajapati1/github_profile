@@ -1,49 +1,67 @@
-body{
-    padding:0;
-    margin:0;
-}
-.top-image{
-    background: hsla(35, 79%, 68%, 1);
-
-background: linear-gradient(90deg, hsla(35, 79%, 68%, 1) 0%, hsla(286, 44%, 49%, 1) 100%);
-
-background: -moz-linear-gradient(90deg, hsla(35, 79%, 68%, 1) 0%, hsla(286, 44%, 49%, 1) 100%);
-
-background: -webkit-linear-gradient(90deg, hsla(35, 79%, 68%, 1) 0%, hsla(286, 44%, 49%, 1) 100%);
-
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EEB86D", endColorstr="#9946B2", GradientType=1 );
-height:85ch;;
-}
-.welcome{
-    
-    padding-left:55ch;
-    padding-top: 40px;
-    border-radius: 10px;
-    height:55ch;
-}
-
-.iconsbar{
- width:auto;
- height: 10px;
- padding-top: 3ch;
- display:flex;
- justify-content: space-around;
-}
-/*
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Red+Hat+Display:wght@300&family=Source+Code+Pro:wght@500&display=swap');
 
 .container{
-    margin:0;
-    padding:0;
-    background-color:rgb(82, 82, 82);
-    height:1000ch;
-    width:auto;
+    width:100%;
+}
+
+.welcomebox{
+    padding:30px;
+    font-size: 50px;
+    border-style: solid;
+    border-color: solid black;
+    font-family: 'Pacifico', cursive;
+    background-color: azure;
+}
+
+.handle{
+    color: crimson;
+    border-color:skyblue;
+    border-style: solid;
+    display:flex;
+    justify-content: center;
+    row-gap: 10px;
 
 }
-.item{
-    background-color:rgb(40, 204, 32);
-    height:40ch;
-    width:45ch;
-    width:30ch;
-    border-bottom-right-radius: 20px ;
-    border-top-right-radius:25px ;
-}*/
+
+#icon{
+    background-color: darkkhaki;
+    border-radius: 10%;
+    font-size: 30px;
+}
+
+
+
+#project{
+    color:green;
+    border-style: solid;
+    border-color: indigo;
+    font-family: 'Red Hat Display', sans-serif;
+}
+#message{
+    font-family: 'Source Code Pro', monospace;
+    color:pink;
+    border-style: solid;
+    border-color:orange;
+}
+
+
+.wave {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 1.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+    font-size: 50px;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+  
