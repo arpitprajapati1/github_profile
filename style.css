@@ -83,6 +83,7 @@ span{
 .main{
     border-style:solid;
     display:flex;
+    flex-direction: row;
     padding:10px;
     justify-content:center;
     height:240px;
